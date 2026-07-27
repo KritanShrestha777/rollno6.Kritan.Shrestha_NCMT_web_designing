@@ -10,33 +10,134 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Alex</a>
+        <a href="#home" class="logo">Kritan</a>
 
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+
+    <section class="home" id="home">
         <div class="home-img">
             <img src="main.jpg" alt="">
         </div>
         <div class="home-content">
-            <h1>Hi, It's <span>Alex</span></h1>
+            <h1>Hi, It's <span>Kritan</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <p>Hi, I'm Kritan Shrestha, a Bachelor of Computer Science (BCS) student with a strong interest in Cybersecurity, Ethical Hacking, and Networking. I enjoy learning about technology, exploring security concepts, and building my skills through hands-on practice and personal projects. My goal is to become a cybersecurity professional and contribute to creating a safer digital world.</p>
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="#" class="btn">Hire me</a>
+            <a href="#contact" class="btn">Hire me</a>
         </div>
     </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Penetration Testing</h3>
+                <p>Identifying vulnerabilities in systems and networks using tools like Nmap, Metasploit, and Burp Suite.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>Network Security</h3>
+                <p>Analyzing network traffic and securing infrastructure using Wireshark and other diagnostic tools.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building clean, responsive websites and web applications from scratch.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Nmap</h3>
+                <div class="skill-bar"><span style="width: 85%;"></span></div>
+            </div>
+            <div class="skill-box">
+                <h3>Metasploit</h3>
+                <div class="skill-bar"><span style="width: 75%;"></span></div>
+            </div>
+            <div class="skill-box">
+                <h3>Burp Suite</h3>
+                <div class="skill-bar"><span style="width: 70%;"></span></div>
+            </div>
+            <div class="skill-box">
+                <h3>Wireshark</h3>
+                <div class="skill-bar"><span style="width: 75%;"></span></div>
+            </div>
+            <div class="skill-box">
+                <h3>Hydra</h3>
+                <div class="skill-bar"><span style="width: 65%;"></span></div>
+            </div>
+            <div class="skill-box">
+                <h3>HTML / CSS</h3>
+                <div class="skill-bar"><span style="width: 80%;"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="timeline-box">
+            <div class="timeline-item">
+                <h3>Bachelor of Computer Science (BCS)</h3>
+                <p class="timeline-place">NCMT, Kathmandu</p>
+                <p>Coursework spanning cybersecurity, networking, databases, software engineering, and web technologies.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>BBA Technopreneurship</h3>
+                <p class="timeline-place">Tribhuvan University</p>
+                <p>Studying business and entrepreneurship alongside my computer science degree.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+        <div class="timeline-box">
+            <div class="timeline-item">
+                <h3>Hands-on Security Labs</h3>
+                <p class="timeline-place">Self-directed practice</p>
+                <p>Practical lab experience using penetration testing tools including Nmap, Hydra, Metasploit, Burp Suite, and Wireshark.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Portfolio Website Project</h3>
+                <p class="timeline-place">NCMT Web Designing Course</p>
+                <p>Designing and building this personal portfolio site as part of coursework.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
 </body>
 </html>
